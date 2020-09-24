@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="62" viewBox="0 0 140 62">
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <path fill="#242424" d="M0 16H140V62H0z" transform="translate(-250 -6) translate(250 6)"/>
+                <path fill="#242424" d="M115 0H140V62H115zM80 8H112V54H80zM44 9H76V55H44z" transform="translate(-250 -6) translate(250 6)"/>
+                <text fill="#FFF" font-family="Assistant-Regular, Assistant" font-size="24" transform="translate(-250 -6) translate(250 6)">
+                    <tspan x="23.38" y="48">WEBUILD</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

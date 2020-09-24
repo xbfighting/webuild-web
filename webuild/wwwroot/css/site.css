@@ -1,0 +1,81 @@
+﻿:root {
+    --primary: #fca41b;
+    --secondary-light: #22a8cc;
+    --secondary: #124f82;
+    --secondary-dark: #030839;
+    --gray: #9a9a9a;
+}
+
+.btn {
+    color: #fff;
+    min-width: 140px;
+    min-height: 32px;
+    border-radius: 100px;
+    background-color: var(--secondary-light);
+    box-shadow: 0 16px 24px -11px var(--secondary-light);
+}
+
+.marketplace {
+    background: url(/images/bg.svg) center -200px/200% no-repeat;
+}
+
+@media (min-width: 992px) {
+    .marketplace .container {
+        max-width: 760px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .marketplace .container {
+        max-width: 920px;
+    }
+}
+
+.marketplace .bg {
+    background: url(/images/sky.png) top right no-repeat;
+}
+
+.marketplace .hero {
+    height: 565px;
+    border-bottom: solid 1px var(--secondary-light);
+}
+
+    .marketplace .hero div {
+        max-width: 380px;
+    }
+
+.marketplace .models {
+    border-bottom: solid 1px var(--secondary-light);
+    padding-bottom: 20px;
+}
+
+    .marketplace .models .col {
+        margin: 20px 0;
+    }
+
+        .marketplace .models .col img {
+            transition: transform 0.5s;
+        }
+
+        .marketplace .models .col:hover img {
+            transform: scale(1.5) translate(0, -30px);
+        }
+
+        .marketplace .models .col .grow {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.5s;
+        }
+
+        .marketplace .models .col:hover .grow {
+            max-height: 9999px;
+        }
+
+.marketplace .wbs {
+    padding: 80px 0 160px;
+}
+
+footer {
+    color: #fff;
+    background: var(--secondary-dark);
+}
